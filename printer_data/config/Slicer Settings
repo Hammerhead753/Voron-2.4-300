@@ -11,3 +11,9 @@ Extruder clearance 65
 36
 140
 
+
+PrusaSlicer Start GCode
+M109 S0
+M190 S0
+PRINT_START EXTRUDER={first_layer_temperature[initial_extruder]} BED={first_layer_bed_temperature[initial_extruder]} Chamber=[chamber_temperature] 
+SET_MATERIAL MATERIAL="{filament_type[initial_extruder]}"
