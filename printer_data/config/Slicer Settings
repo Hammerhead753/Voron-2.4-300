@@ -1,0 +1,13 @@
+PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] 
+SET_MATERIAL MATERIAL="{filament_type[initial_extruder]}"
+
+PRINT_END
+
+300x290x290
+
+48x48/png,300x300/png
+
+Extruder clearance 65
+36
+140
+
